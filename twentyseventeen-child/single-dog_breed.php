@@ -7,8 +7,9 @@
 		<h4>Stats</h4>
 		<p>Dog Breed: <?php echo get_field('dog_breed_group'); ?></p>
 		<p>Height: <?php echo get_field('height'); ?></p>
-		<p>Weight: <?php echo get_field('life_span'); ?></p>
-		<p>Life Span: <?php echo get_field('details_link'); ?></p>
+		<p>Weight: <?php echo get_field('weight'); ?></p>
+		<p>Life Span: <?php echo get_field('life_span'); ?></p>
+		<p>Details Link: <?php echo get_field('details_link'); ?></p>
 	<?php endwhile; ?>
 <?php endif; ?>
 </div>
