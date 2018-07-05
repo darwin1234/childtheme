@@ -41,3 +41,35 @@
 .shadow {
 	box-shadow: 0 8px 8px -6px #333;
 }
+.content-wrap{
+	width:100%; 
+	margin:0;
+	padding:0;
+}
+.content-wrap .image{
+	width:25%;
+	float:left;
+}
+.content-wrap .description{
+	width:42%;
+	float:left;
+	padding-right:20px;
+}
+.content-wrap .stats{
+	width:33%;
+	float:left;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 812px) {
+	.content-wrap .image{
+		width:100%;
+		
+	}
+	.content-wrap .description{
+		width:100%;
+		padding-right:0px;
+	}
+	.content-wrap .stats{
+		width:100%;
+	}
+}
